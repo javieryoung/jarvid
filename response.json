@@ -1,1 +1,0 @@
-{"errorMessage": "'body'", "errorType": "KeyError", "stackTrace": ["  File \"/var/task/lambda_handler.py\", line 12, in lambda_handler\n    body = json.loads(event['body'])\n"]}

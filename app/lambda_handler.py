@@ -1,6 +1,7 @@
 import json
 import os
 import urllib3
+from prompt_handler import prompt_handler
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
 SLACK_BOT_ID = os.getenv("SLACK_BOT_ID")
@@ -17,7 +18,8 @@ def lambda_handler(event, context):
         user = body['event']['user']
         message = body['event']['text']
         if user != SLACK_BOT_ID:
-            send_message(channel, f"Hola <@{user}>! {message}")
+            response = prompt_handler()
+            send_message(channel, response)
         
     
     if 'challenge' in body:

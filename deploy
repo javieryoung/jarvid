@@ -1,9 +1,0 @@
-aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 101344062716.dkr.ecr.us-east-2.amazonaws.com
-docker tag lambda:latest 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:latest
-
-
-Update:
-docker push 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:latest
-aws lambda update-function-code \
-    --function-name jarvid \
-    --image-uri 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:latest
