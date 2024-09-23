@@ -8,8 +8,7 @@ from openai import Client, OpenAI
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def prompt_handler(prompt: str):
-    final_response = generate_response(prompt)
-    return final_response
+    return generate_response(prompt)
 
 
 def generate_response(user_prompt: str) -> str:

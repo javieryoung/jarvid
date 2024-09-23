@@ -8,19 +8,19 @@ aws ecr get-login-password --region us-east-2 | docker login --username AWS --pa
 
 ### Building commands:
 ```
-docker build -t jarvid-build:1.11 .
-docker tag jarvid-build:1.11 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.11
-docker push 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.11
+docker build -t jarvid-build:1.15 .
+docker tag jarvid-build:1.15 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.15
+docker push 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.15
 ```
 
 ### Update Lambda function:
 ```
 aws lambda update-function-code \
     --function-name jarvid \
-    --image-uri 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.11
+    --image-uri 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.15
 ```
 
 
 ### Deploy image locally:
 ```
-docker run -p 5000:8080 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.11
+docker run -p 5000:8080 101344062716.dkr.ecr.us-east-2.amazonaws.com/jarvid:1.15

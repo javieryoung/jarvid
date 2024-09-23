@@ -2,6 +2,11 @@ import json
 import os
 import urllib3
 from prompt_handler import prompt_handler
+import boto3
+
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('events')
+
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
 SLACK_BOT_ID = os.getenv("SLACK_BOT_ID")
@@ -13,25 +18,46 @@ def lambda_handler(event, context):
     body = json.loads(event['body'])
     print(f"Body: {json.dumps(body)}")
 
-    if 'event' in body:
-        channel = body['event']['channel']
-        user = body['event']['user']
-        message = body['event']['text']
-        if user != SLACK_BOT_ID:
-            response = prompt_handler(message)
-            send_message(channel, response)
-        
-    
     if 'challenge' in body:
         return {
             'statusCode': 200,
             'body': json.dumps({'challenge': body['challenge']})
         }
-    
+
+    if 'event' in body:
+        channel = body['event']['channel']
+        user = body['event']['user']
+        message = body['event']['text']
+        message_id = body['event']['client_msg_id']
+
+        if user != SLACK_BOT_ID:
+            try:
+                response = table.get_item(Key={'message_id': message_id})
+            except Exception as e:
+                print(e)
+                return {
+                    'statusCode': 500,
+                    'body': json.dumps({'error': 'Failed to check message status'})
+                }
+
+            if 'Item' in response:
+                print(f"Message {message_id} already processed.")
+                return {
+                    'statusCode': 200,
+                    'body': json.dumps({'message': 'Message already processed.'})
+                }
+          
+            table.put_item(Item={'message_id': message_id})
+
+            response_message = prompt_handler(message)
+            send_message(channel, response_message)
+          
+
     return {
         'statusCode': 200,
         'body': json.dumps('OK')
     }
+
 
 def send_message(channel, text):
     url = "https://slack.com/api/chat.postMessage"

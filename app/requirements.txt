@@ -2,3 +2,4 @@ openai
 numpy
 pandas
 faiss-cpu
+boto3
