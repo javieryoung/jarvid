@@ -1,8 +1,8 @@
 import json
 import os
 import urllib3
-from prompt_handler import prompt_handler
 import boto3
+from prompt_handler import prompt_handler
 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('events')

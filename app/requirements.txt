@@ -3,3 +3,4 @@ numpy
 pandas
 faiss-cpu
 boto3
+urllib3
