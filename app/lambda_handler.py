@@ -18,7 +18,7 @@ def lambda_handler(event, context):
         user = body['event']['user']
         message = body['event']['text']
         if user != SLACK_BOT_ID:
-            response = prompt_handler()
+            response = prompt_handler(message)
             send_message(channel, response)
         
     
