@@ -11,12 +11,12 @@ client = OpenAI(
     api_key=OPENAI_API_KEY,
 )
 
-def prompt_handler(prompt: str):
-    return generate_response(prompt)
+def prompt_handler(prompt: str, conversation_history):
+    return generate_response(prompt, conversation_history)
 
 
 # Main function to generate the response
-def generate_response(user_prompt: str) -> str:
+def generate_response(user_prompt: str, conversation_history) -> str:
     """
     Generates the complete response depending on whether the user is looking for an expert or has a general inquiry.
     """
@@ -28,20 +28,20 @@ def generate_response(user_prompt: str) -> str:
         expert_search_prompt = handle_expert_search(user_prompt)
         
         # Generate the response using the gpt-4o model
-        expert_helper_chat = gpt_completion("gpt-4o", expert_search_prompt)
+        expert_helper_chat = gpt_completion("gpt-4o", expert_search_prompt, conversation_history)
         
-        return expert_helper_chat.choices[0].message.content
+        return expert_helper_chat.choices[0].message.content.replace("**", "*")
     
     else:
         # If it's a general inquiry, we construct a generic prompt
         system_prompt = build_general_prompt(user_prompt)
 
         # Generate the response using the gpt-4o model
-        standard_chat = gpt_completion("gpt-4o", system_prompt)
+        standard_chat = gpt_completion("gpt-4o", system_prompt, conversation_history)
         
-        return standard_chat.choices[0].message.content
+        return standard_chat.choices[0].message.content.replace("**", "*")
 
-def gpt_completion(model: str, prompt: str) -> dict:
+def gpt_completion(model: str, prompt: str, conversation_history) -> dict:
     """
     Sends a prompt to the GPT model and retrieves the completion.
 
@@ -54,7 +54,7 @@ def gpt_completion(model: str, prompt: str) -> dict:
     """
     chat = client.chat.completions.create(
         model=model,
-        messages=[
+        messages= conversation_history + [
             {
                 "role": "system",
                 "content": prompt,
@@ -91,7 +91,6 @@ def handle_expert_search(user_prompt: str) -> str:
         {selected_professionals_string}.
 
         Answer in a fluid text (not a list) with the name of the experts and a brief description of their expertise and technology knowledge. 
-        If you want to highlight something in bold wrap it with just one asterisk on each side, never use double asterisks.
     """
     
     return system_prompt

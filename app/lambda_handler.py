@@ -6,6 +6,7 @@ from prompt_handler import prompt_handler
 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('events')
+messages_table = dynamodb.Table('messages')
 
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
@@ -48,8 +49,14 @@ def lambda_handler(event, context):
                 }
           
             table.put_item(Item={'message_id': message_id})
+            conversation_history = get_conversation_history(user)
+            response_message = prompt_handler(message, conversation_history)
+            
+            # store the messages in the table
+            conversation_history.append({"role": "user", "content": message})
+            conversation_history.append({"role": "assistant", "content": response_message})
+            save_conversation_history(user, conversation_history)
 
-            response_message = prompt_handler(message)
             send_message(channel, response_message)
           
 
@@ -57,6 +64,28 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('OK')
     }
+
+
+def get_conversation_history(user_id):
+    try:
+        response = messages_table.get_item(Key={'user_id': user_id})
+        return response.get('Item', {}).get('conversation_history', [])
+    except Exception as e:
+        print(f"Error fetching conversation history: {e}")
+        return []
+
+
+def save_conversation_history(user_id, conversation_history):
+    conversation_history = conversation_history[-20:]
+    try:
+        messages_table.put_item(
+            Item={
+                'user_id': user_id,
+                'conversation_history': conversation_history
+            }
+        )
+    except Exception as e:
+        print(f"Error saving conversation history: {e}")
 
 
 def send_message(channel, text):
