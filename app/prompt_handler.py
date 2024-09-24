@@ -24,10 +24,6 @@ def generate_response(user_prompt: str) -> str:
     user_intent = classify_user_intent_with_gpt(user_prompt)
 
     if user_intent == "search expert":
-        print("Wait a few moments while I search the database")
-        print("This shouldn't take more than 20 seconds")
-        print()
-        
         # Handle expert search
         expert_search_prompt = handle_expert_search(user_prompt)
         
@@ -172,7 +168,6 @@ def classify_user_intent_with_gpt(user_prompt: str) -> str:
     # Extract the classification from the model
     intent = classification_response.choices[0].message.content
     
-    #print(intent)
     return intent
 
 

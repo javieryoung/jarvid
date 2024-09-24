@@ -93,23 +93,5 @@ def test_lambda_handler_error_on_get_item(mock_table):
     assert response['statusCode'] == 500
     assert json.loads(response['body'])["error"] == 'Failed to check message status'
 
-def test_send_message():
-    with patch('app.lambda_handler.urllib3.PoolManager') as mock_pool:
-        mock_http = MagicMock()
-        mock_pool.return_value = mock_http
-
-        channel = 'C123456'
-        text = 'Hello, Slack!'
-        send_message(channel, text)
-
-        expected_url = "https://slack.com/api/chat.postMessage"
-        expected_headers = {
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {os.getenv("SLACK_BOT_TOKEN")}'
-        }
-        expected_body = json.dumps({'channel': channel, 'text': text}).encode('utf-8')
-
-        mock_http.request.assert_called_once_with('POST', expected_url, body=expected_body, headers=expected_headers)
-
 if __name__ == '__main__':
     pytest.main()

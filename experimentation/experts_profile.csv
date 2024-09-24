@@ -1,0 +1,507 @@
+,Name,Partner,Technologies,Industry,Processed_CV,Processed_CV_list
+0,Carlos Fernandez,TechNova Solutions,"React, Node.js, PostgreSQL",Technology,"1. Web Development
+2. Full-Stack Development
+3. Front-End Development
+4. Back-End Development
+5. Database Management","['Web Development', 'Full-Stack Development', 'Front-End Development', 'Back-End Development', 'Database Management']"
+1,Carlos Fernandez,TechNova Solutions,"React, Node.js, PostgreSQL",Consulting,"1. Web Development
+2. Full-Stack Development
+3. Front-End Development
+4. Back-End Development
+5. Database Management","['Web Development', 'Full-Stack Development', 'Front-End Development', 'Back-End Development', 'Database Management']"
+2,Maria Lopez,GreenLeaf Organics,"Vue.js, Django, MySQL",Agriculture,"1. Frontend Development
+2. Vue.js Framework
+3. Web Application Integration with Django
+4. MySQL Database Management
+5. Collaborative Team Projects","['Frontend Development', 'Vue.js Framework', 'Web Application Integration with Django', 'MySQL Database Management', 'Collaborative Team Projects']"
+3,Maria Lopez,GreenLeaf Organics,"Vue.js, Django, MySQL",Food Industry,"1. Frontend Development
+2. Vue.js Framework
+3. Web Application Integration with Django
+4. MySQL Database Management
+5. Collaborative Team Projects","['Frontend Development', 'Vue.js Framework', 'Web Application Integration with Django', 'MySQL Database Management', 'Collaborative Team Projects']"
+4,Javier Ramirez,BlueWave Logistics,"Angular, Java, MongoDB",Transportation & Logistics,"1. Backend Development
+2. Java Programming
+3. NoSQL Databases (MongoDB)
+4. Web Development Frameworks (Angular)
+5. Problem-Solving and Critical Thinking","['Backend Development', 'Java Programming', 'NoSQL Databases (MongoDB)', 'Web Development Frameworks (Angular)', 'Problem-Solving and Critical Thinking']"
+5,Javier Ramirez,BlueWave Logistics,"Angular, Java, MongoDB",Automotive,"1. Backend Development
+2. Java Programming
+3. NoSQL Databases (MongoDB)
+4. Web Development Frameworks (Angular)
+5. Problem-Solving and Critical Thinking","['Backend Development', 'Java Programming', 'NoSQL Databases (MongoDB)', 'Web Development Frameworks (Angular)', 'Problem-Solving and Critical Thinking']"
+6,Ana Gomez,QuantumMed Innovations,"React, Python, SQLite",Healthcare,"1. Fullstack Web Development
+2. Quality Assurance and Testing
+3. Frontend Technologies (React)
+4. Backend Technologies (Python, SQLite)
+5. Team Leadership and Project Management","['Fullstack Web Development', 'Quality Assurance and Testing', 'Frontend Technologies (React)', 'Backend Technologies (Python, SQLite)', 'Team Leadership and Project Management']"
+7,Ricardo Martinez,EcoFusion Energy,"Node.js, Express, MongoDB",Renewable Energy,"1. Backend Development
+2. Node.js Programming
+3. Database Management with MongoDB
+4. RESTful API Design using Express
+5. Scalable System Architecture","['Backend Development', 'Node.js Programming', 'Database Management with MongoDB', 'RESTful API Design using Express', 'Scalable System Architecture']"
+8,Sofia Rodriguez,Stellar Financial,"Angular, Spring Boot, MySQL",Finance,"1. Full Stack Development
+2. Front-end Technologies (Angular)
+3. Back-end Technologies (Spring Boot)
+4. Database Management (MySQL)
+5. Project Management","['Full Stack Development', 'Front-end Technologies (Angular)', 'Back-end Technologies (Spring Boot)', 'Database Management (MySQL)', 'Project Management']"
+9,Sofia Rodriguez,Stellar Financial,"Angular, Spring Boot, MySQL",Venture Capital,"1. Full Stack Development
+2. Front-end Technologies (Angular)
+3. Back-end Technologies (Spring Boot)
+4. Database Management (MySQL)
+5. Project Management","['Full Stack Development', 'Front-end Technologies (Angular)', 'Back-end Technologies (Spring Boot)', 'Database Management (MySQL)', 'Project Management']"
+10,Juan Perez,AeroSpace Dynamics,"Vue.js, C++, PostgreSQL",Aerospace,"1. Embedded System Design
+2. Real-Time Operating Systems (RTOS)
+3. Firmware Development
+4. Sensor Integration and Data Acquisition
+5. Hardware-Software Co-Design","['Embedded System Design', 'Real-Time Operating Systems (RTOS)', 'Firmware Development', 'Sensor Integration and Data Acquisition', 'Hardware-Software Co-Design']"
+11,Valeria Castro,Oceanic Foods,"React, Ruby on Rails, PostgreSQL",Food Industry,"1. Fullstack Development
+2. Frontend Development with React
+3. Backend Development with Ruby on Rails
+4. Database Management with PostgreSQL
+5. Project Leadership and Management","['Fullstack Development', 'Frontend Development with React', 'Backend Development with Ruby on Rails', 'Database Management with PostgreSQL', 'Project Leadership and Management']"
+12,Andres Ortiz,SilverLine Apparel,"React, JavaScript, SQLite",Fashion & Apparel,"1. Frontend Development
+2. User Interface Design
+3. React Framework
+4. JavaScript Programming
+5. Team Collaboration","['Frontend Development', 'User Interface Design', 'React Framework', 'JavaScript Programming', 'Team Collaboration']"
+13,Carolina Silva,ClearView Analytics,"Vue.js, Python, MariaDB",Data Analytics,"1. Data Analysis
+2. Data Visualization
+3. Analytical Thinking
+4. Problem-Solving
+5. Software Development (Vue.js, Python, MariaDB)","['Data Analysis', 'Data Visualization', 'Analytical Thinking', 'Problem-Solving', 'Software Development (Vue.js, Python, MariaDB)']"
+14,Diego Herrera,PulseTech Systems,"Angular, .NET, SQL Server",Technology,"Certainly! Here is a brief list of five areas of specialization based on Diego Herrera's CV:
+
+1. Front-End Development with Angular
+2. Back-End Development with .NET
+3. Database Management with SQL Server
+4. Agile Software Development 
+5. Team Collaboration and Problem Solving","['Front-End Development with Angular', 'Back-End Development with .NET', 'Database Management with SQL Server', 'Agile Software Development', 'Team Collaboration and Problem Solving']"
+15,Paula Diaz,Horizon BioSciences,"React, Java, Cassandra",Biotechnology,"1. Biotechnology Integration
+2. Full-Stack Development
+3. Frontend Development with React
+4. Backend Development with Java
+5. Database Management with Cassandra","['Biotechnology Integration', 'Full-Stack Development', 'Frontend Development with React', 'Backend Development with Java', 'Database Management with Cassandra']"
+16,Martin Mendez,GlobalReach Consulting,"React, Ruby on Rails, MySQL",Consulting,"Here's a brief list of five areas of specialization for Martín Méndez based on the provided CV:
+
+1. Web Development
+2. Front-end Technologies (React)
+3. Back-end Technologies (Ruby on Rails)
+4. Database Management (MySQL)
+5. Problem Solving and Critical Thinking","['Web Development', 'Front-end Technologies (React)', 'Back-end Technologies (Ruby on Rails)', 'Database Management (MySQL)', 'Problem Solving and Critical Thinking']"
+17,Laura Paredes,PeakPerformance Sports,"Angular, Node.js, MongoDB",Sports & Fitness,"1. Sports Science and Athlete Performance
+2. Full-Stack Web Application Development
+3. Frontend Development using Angular
+4. Backend Development with Node.js
+5. Database Management with MongoDB","['Sports Science and Athlete Performance', 'Full-Stack Web Application Development', 'Frontend Development using Angular', 'Backend Development with Node.js', 'Database Management with MongoDB']"
+18,Lucas Morales,UrbanNest Realty,"Vue.js, Flask, PostgreSQL",Real Estate,"Sure, here are five areas of specialization for Lucas Morales based on the provided CV:
+
+1. Real Estate Development
+2. Full Stack Development (Vue.js, Flask, PostgreSQL)
+3. Customer-Focused Solutions
+4. Innovative Real Estate Technology Solutions
+5. Data Analysis in Real Estate Operations","['Real Estate Development', 'Full Stack Development (Vue.js, Flask, PostgreSQL)', 'Customer-Focused Solutions', 'Innovative Real Estate Technology Solutions', 'Data Analysis in Real Estate Operations']"
+19,Nicolas Gutierrez,SolarFlare Power,"React, JavaScript, MongoDB",Renewable Energy,"Certainly! Based on Nicolás Gutiérrez's CV, here are five areas of specialization:
+
+1. Software Development for Renewable Energy Solutions
+2. Front-End Development with React and JavaScript
+3. Database Management with MongoDB
+4. Environmental Engineering
+5. Sustainability and Problem Solving in Technical Fields","['Software Development for Renewable Energy Solutions', 'Front-End Development with React and JavaScript', 'Database Management with MongoDB', 'Environmental Engineering', 'Sustainability and Problem Solving in Technical Fields']"
+20,Daniela Sanchez,CloudBridge Networks,"Angular, Kotlin, PostgreSQL",Telecommunications,"Sure! Based on Daniela Sánchez's CV, here's a brief list of five areas of specialization:
+
+1. Cloud Solutions Development
+2. Front-End Development with Angular
+3. Back-End Development with Kotlin
+4. Database Management with PostgreSQL
+5. Software Engineering and Collaboration
+
+","['Cloud Solutions Development', 'Front-End Development with Angular', 'Back-End Development with Kotlin', 'Database Management with PostgreSQL', 'Software Engineering and Collaboration']"
+21,Pedro Vargas,Infinity Motors,"Vue.js, Java, MySQL",Automotive,"1. Full Stack Development
+2. Automotive Engineering
+3. Frontend Development (using Vue.js)
+4. Backend Development (using Java and MySQL)
+5. Technical Problem Solving in Automotive Sector","['Full Stack Development', 'Automotive Engineering', 'Frontend Development (using Vue.js)', 'Backend Development (using Java and MySQL)', 'Technical Problem Solving in Automotive Sector']"
+22,Juliana Torres,NextGen Entertainment,"React, Python, MongoDB",Entertainment,"1. Game Design
+2. Immersive Experience Crafting
+3. Front-End Development (React)
+4. Back-End Development (Python, MongoDB)
+5. User Experience in Gaming","['Game Design', 'Immersive Experience Crafting', 'Front-End Development (React)', 'Back-End Development (Python, MongoDB)', 'User Experience in Gaming']"
+23,Luis Delgado,VentureVibe Capital,"Vue.js, Ruby on Rails, PostgreSQL",Finance,"1. Financial Software Development
+2. Investment Strategy Enhancement
+3. Front-End Development with Vue.js
+4. Back-End Development with Ruby on Rails
+5. Database Management with PostgreSQL","['Financial Software Development', 'Investment Strategy Enhancement', 'Front-End Development with Vue.js', 'Back-End Development with Ruby on Rails', 'Database Management with PostgreSQL']"
+24,Miguel Rojas,TechNova Solutions,"Angular, Node.js, MongoDB",Technology,"Sure, based on Miguel Rojas's CV, here are five areas of specialization:
+
+1. Web Application Development
+2. Front-end Technologies (Angular)
+3. Backend Technologies (Node.js, MongoDB)
+4. Agile Methodologies
+5. Technical Writing","['Web Application Development', 'Front-end Technologies (Angular)', 'Backend Technologies (Node.js, MongoDB)', 'Agile Methodologies', 'Technical Writing']"
+25,Miguel Rojas,TechNova Solutions,"Angular, Node.js, MongoDB",Consulting,"Sure, based on Miguel Rojas's CV, here are five areas of specialization:
+
+1. Web Application Development
+2. Front-end Technologies (Angular)
+3. Backend Technologies (Node.js, MongoDB)
+4. Agile Methodologies
+5. Technical Writing","['Web Application Development', 'Front-end Technologies (Angular)', 'Backend Technologies (Node.js, MongoDB)', 'Agile Methodologies', 'Technical Writing']"
+26,Camila Ramirez,GreenLeaf Organics,"React, Python, PostgreSQL",Agriculture,"1. Sustainable Software Development
+2. Environmental Technology Integration
+3. Frontend Development with React
+4. Backend Development with Python
+5. Database Management with PostgreSQL","['Sustainable Software Development', 'Environmental Technology Integration', 'Frontend Development with React', 'Backend Development with Python', 'Database Management with PostgreSQL']"
+27,Camila Ramirez,GreenLeaf Organics,"React, Python, PostgreSQL",Food Industry,"1. Sustainable Software Development
+2. Environmental Technology Integration
+3. Frontend Development with React
+4. Backend Development with Python
+5. Database Management with PostgreSQL","['Sustainable Software Development', 'Environmental Technology Integration', 'Frontend Development with React', 'Backend Development with Python', 'Database Management with PostgreSQL']"
+28,Tomas Morales,BlueWave Logistics,"Vue.js, Django, MariaDB",Transportation & Logistics,"1. Logistics Process Optimization
+2. Software Development for Logistics
+3. Frontend Development with Vue.js
+4. Backend Development with Django
+5. Data Analysis in Supply Chain Management","['Logistics Process Optimization', 'Software Development for Logistics', 'Frontend Development with Vue.js', 'Backend Development with Django', 'Data Analysis in Supply Chain Management']"
+29,Tomas Morales,BlueWave Logistics,"Vue.js, Django, MariaDB",Automotive,"1. Logistics Process Optimization
+2. Software Development for Logistics
+3. Frontend Development with Vue.js
+4. Backend Development with Django
+5. Data Analysis in Supply Chain Management","['Logistics Process Optimization', 'Software Development for Logistics', 'Frontend Development with Vue.js', 'Backend Development with Django', 'Data Analysis in Supply Chain Management']"
+30,Fernanda Ruiz,QuantumMed Innovations,"Angular, Java, MySQL",Healthcare,"1. Healthcare Technology Integration
+2. Full-Stack Web Development
+3. Biotechnology Applications
+4. Database Management
+5. Software Development in Medical Innovation","['Healthcare Technology Integration', 'Full-Stack Web Development', 'Biotechnology Applications', 'Database Management', 'Software Development in Medical Innovation']"
+31,Alejandro Castillo,EcoFusion Energy,"React, Ruby on Rails, PostgreSQL",Renewable Energy,"1. Renewable Energy Solutions
+2. Full Stack Software Development
+3. Environmental Engineering
+4. Innovation and Sustainability
+5. Database Management and Integration","['Renewable Energy Solutions', 'Full Stack Software Development', 'Environmental Engineering', 'Innovation and Sustainability', 'Database Management and Integration']"
+32,Patricia Mendoza,Stellar Financial,"Angular, Spring Boot, Cassandra",Finance,"1. Financial Software Development
+2. Full-stack Development with Angular and Spring Boot
+3. Database Management with Cassandra
+4. Financial Analysis
+5. Leadership and Team Coordination","['Financial Software Development', 'Full-stack Development with Angular and Spring Boot', 'Database Management with Cassandra', 'Financial Analysis', 'Leadership and Team Coordination']"
+33,Patricia Mendoza,Stellar Financial,"Angular, Spring Boot, Cassandra",Venture Capital,"1. Financial Software Development
+2. Full-stack Development with Angular and Spring Boot
+3. Database Management with Cassandra
+4. Financial Analysis
+5. Leadership and Team Coordination","['Financial Software Development', 'Full-stack Development with Angular and Spring Boot', 'Database Management with Cassandra', 'Financial Analysis', 'Leadership and Team Coordination']"
+34,Samuel Lopez,AeroSpace Dynamics,"Vue.js, C#, PostgreSQL",Aerospace,"1. Aerospace Software Development
+2. Front-End Development (Vue.js)
+3. Back-End Development (C#)
+4. Database Management (PostgreSQL)
+5. Team Collaboration & Project Management","['Aerospace Software Development', 'Front-End Development (Vue.js)', 'Back-End Development (C#)', 'Database Management (PostgreSQL)', 'Team Collaboration & Project Management']"
+35,Gabriela Contreras,Oceanic Foods,"React, Node.js, SQLite",Food Industry,"1. Software Development for Food Industry
+2. Front-End Development (React)
+3. Back-End Development (Node.js)
+4. Database Management (SQLite)
+5. Optimization of Food Production and Distribution Systems","['Software Development for Food Industry', 'Front-End Development (React)', 'Back-End Development (Node.js)', 'Database Management (SQLite)', 'Optimization of Food Production and Distribution Systems']"
+36,Joaquin Gomez,SilverLine Apparel,"Vue.js, JavaScript, MongoDB",Fashion & Apparel,"1. Innovative Software Development for Fashion Industry
+2. Front-End Development with Vue.js and JavaScript
+3. Backend Development and Database Management with MongoDB
+4. Fashion Design and Technology Integration
+5. Creative Problem Solving and Collaborative Teamwork","['Innovative Software Development for Fashion Industry', 'Front-End Development with Vue.js and JavaScript', 'Backend Development and Database Management with MongoDB', 'Fashion Design and Technology Integration', 'Creative Problem Solving and Collaborative Teamwork']"
+37,Clara Rivera,ClearView Analytics,"Angular, Django, MySQL",Data Analytics,"1. Data Analysis
+2. Data Visualization
+3. Business Intelligence
+4. Analytical Problem Solving
+5. Full-Stack Development (Angular, Django, MySQL)","['Data Analysis', 'Data Visualization', 'Business Intelligence', 'Analytical Problem Solving', 'Full-Stack Development (Angular, Django, MySQL)']"
+38,Hernan Acosta,PulseTech Systems,"React, Python, MongoDB",Technology,"1. Front-End Development (React)
+2. Back-End Development (Python)
+3. Database Management (MongoDB)
+4. Full-Stack Development
+5. Software Development Best Practices (Adaptability, Teamwork, Problem Solving)","['Front-End Development (React)', 'Back-End Development (Python)', 'Database Management (MongoDB)', 'Full-Stack Development', 'Software Development Best Practices (Adaptability, Teamwork, Problem Solving)']"
+39,Sofia Molina,Horizon BioSciences,"Vue.js, Java, SQL Server",Biotechnology,"1. Web Application Development
+2. Biomedical Engineering
+3. Frontend Development
+4. Healthcare Technology
+5. Database Management (SQL Server)","['Web Application Development', 'Biomedical Engineering', 'Frontend Development', 'Healthcare Technology', 'Database Management (SQL Server)']"
+40,Emiliano Vega,GlobalReach Consulting,"Angular, Flask, MariaDB",Consulting,"Sure, based on the provided CV, here are five areas of specialization for Emiliano Vega:
+
+1. Full-Stack Web Development
+2. Business Strategy and Analysis
+3. Database Management
+4. Project Management
+5. Communication and Team Collaboration
+
+","['Full-Stack Web Development', 'Business Strategy and Analysis', 'Database Management', 'Project Management', 'Communication and Team Collaboration']"
+41,Daniela Aguirre,PeakPerformance Sports,"React, Kotlin, PostgreSQL",Sports & Fitness,"1. Sports Performance Enhancement
+2. Web Development
+3. Sports Technology Integration
+4. Software Development
+5. Sports Management","['Sports Performance Enhancement', 'Web Development', 'Sports Technology Integration', 'Software Development', 'Sports Management']"
+42,Mateo Espinoza,UrbanNest Realty,"Vue.js, Ruby on Rails, MySQL",Real Estate,"1. Digital Solutions Development for Real Estate
+2. Front-end Development with Vue.js
+3. Back-end Development with Ruby on Rails
+4. Database Management with MySQL
+5. Real Estate Industry Expertise","['Digital Solutions Development for Real Estate', 'Front-end Development with Vue.js', 'Back-end Development with Ruby on Rails', 'Database Management with MySQL', 'Real Estate Industry Expertise']"
+43,Natalia Serrano,SolarFlare Power,"React, Node.js, PostgreSQL",Renewable Energy,"1. Renewable Energy Software Development
+2. Front-end Development with React
+3. Back-end Development with Node.js
+4. Database Management with PostgreSQL
+5. Sustainable Technology Solutions","['Renewable Energy Software Development', 'Front-end Development with React', 'Back-end Development with Node.js', 'Database Management with PostgreSQL', 'Sustainable Technology Solutions']"
+44,Pablo Suarez,CloudBridge Networks,"Angular, Python, SQLite",Telecommunications,"1. Scalable Cloud-Based Solutions
+2. Frontend Development with Angular
+3. Backend Development using Python
+4. Database Management with SQLite
+5. Problem Solving and Critical Thinking in Technical Environments","['Scalable Cloud-Based Solutions', 'Frontend Development with Angular', 'Backend Development using Python', 'Database Management with SQLite', 'Problem Solving and Critical Thinking in Technical Environments']"
+45,Lorena Pena,Infinity Motors,"Vue.js, Ruby on Rails, MySQL",Automotive,"1. Automotive Software Development
+2. Front-End Development (Vue.js)
+3. Back-End Development (Ruby on Rails)
+4. Database Management (MySQL)
+5. Mechanical Engineering Principles in Software Solutions","['Automotive Software Development', 'Front-End Development (Vue.js)', 'Back-End Development (Ruby on Rails)', 'Database Management (MySQL)', 'Mechanical Engineering Principles in Software Solutions']"
+46,Eduardo Navarro,NextGen Entertainment,"React, Java, MongoDB",Entertainment,"1. **Front-End Development**
+2. **Back-End Development**
+3. **Database Management**
+4. **Media Technologies Application**
+5. **Creative Software Solutions**","['**Front-End Development**', '**Back-End Development**', '**Database Management**', '**Media Technologies Application**', '**Creative Software Solutions**']"
+47,Pilar Salazar,VentureVibe Capital,"Angular, Flask, PostgreSQL",Finance,"1. Financial Technology Development
+2. Software Development (Angular, Flask, PostgreSQL)
+3. Financial Analysis
+4. Technical Leadership
+5. Finance Education and Application","['Financial Technology Development', 'Software Development (Angular, Flask, PostgreSQL)', 'Financial Analysis', 'Technical Leadership', 'Finance Education and Application']"
+48,Martin Herrera,TechNova Solutions,"React, Java, MySQL",Technology,"1. Web Development
+2. Scalable Application Design
+3. Frontend Development with React
+4. Backend Development with Java
+5. Database Management with MySQL","['Web Development', 'Scalable Application Design', 'Frontend Development with React', 'Backend Development with Java', 'Database Management with MySQL']"
+49,Martin Herrera,TechNova Solutions,"React, Java, MySQL",Consulting,"1. Web Development
+2. Scalable Application Design
+3. Frontend Development with React
+4. Backend Development with Java
+5. Database Management with MySQL","['Web Development', 'Scalable Application Design', 'Frontend Development with React', 'Backend Development with Java', 'Database Management with MySQL']"
+50,Esteban Pacheco,GreenLeaf Organics,"Angular, Node.js, PostgreSQL",Agriculture,"1. Fullstack Web Development
+2. Sustainable Technology Solutions
+3. Environmental Science Integration
+4. Frontend Development with Angular
+5. Backend Development with Node.js and PostgreSQL","['Fullstack Web Development', 'Sustainable Technology Solutions', 'Environmental Science Integration', 'Frontend Development with Angular', 'Backend Development with Node.js and PostgreSQL']"
+51,Esteban Pacheco,GreenLeaf Organics,"Angular, Node.js, PostgreSQL",Food Industry,"1. Fullstack Web Development
+2. Sustainable Technology Solutions
+3. Environmental Science Integration
+4. Frontend Development with Angular
+5. Backend Development with Node.js and PostgreSQL","['Fullstack Web Development', 'Sustainable Technology Solutions', 'Environmental Science Integration', 'Frontend Development with Angular', 'Backend Development with Node.js and PostgreSQL']"
+52,Gabriela Ortiz,BlueWave Logistics,"Vue.js, Python, MongoDB",Transportation & Logistics,"Certainly! Here are five areas of specialization for Gabriela Ortiz:
+
+1. Data Engineering
+2. Logistics Optimization
+3. Data Analysis
+4. Python Programming
+5. Technology Integration (Vue.js, MongoDB)","['Data Engineering', 'Logistics Optimization', 'Data Analysis', 'Python Programming', 'Technology Integration (Vue.js, MongoDB)']"
+53,Gabriela Ortiz,BlueWave Logistics,"Vue.js, Python, MongoDB",Automotive,"Certainly! Here are five areas of specialization for Gabriela Ortiz:
+
+1. Data Engineering
+2. Logistics Optimization
+3. Data Analysis
+4. Python Programming
+5. Technology Integration (Vue.js, MongoDB)","['Data Engineering', 'Logistics Optimization', 'Data Analysis', 'Python Programming', 'Technology Integration (Vue.js, MongoDB)']"
+54,Jose Munoz,QuantumMed Innovations,"React, Spring Boot, PostgreSQL",Healthcare,"1. Health Technology
+2. Medical Software Development
+3. Full-Stack Development (React, Spring Boot, PostgreSQL)
+4. Biomedical Engineering
+5. Research and Development in Biotechnology","['Health Technology', 'Medical Software Development', 'Full-Stack Development (React, Spring Boot, PostgreSQL)', 'Biomedical Engineering', 'Research and Development in Biotechnology']"
+55,Carolina Rios,EcoFusion Energy,"Angular, Ruby on Rails, MySQL",Renewable Energy,"1. Renewable Energy Engineering
+2. Energy Efficiency
+3. Software Development
+4. Sustainable Solutions
+5. Full Stack Development (Angular, Ruby on Rails, MySQL)","['Renewable Energy Engineering', 'Energy Efficiency', 'Software Development', 'Sustainable Solutions', 'Full Stack Development (Angular, Ruby on Rails, MySQL)']"
+56,Francisco Vargas,Stellar Financial,"Vue.js, JavaScript, Cassandra",Finance,"1. Financial Application Development
+2. UI/UX Design
+3. User-Centered Development
+4. Frontend Development with Vue.js and JavaScript
+5. Financial Technology Integration with Cassandra","['Financial Application Development', 'UI/UX Design', 'User-Centered Development', 'Frontend Development with Vue.js and JavaScript', 'Financial Technology Integration with Cassandra']"
+57,Francisco Vargas,Stellar Financial,"Vue.js, JavaScript, Cassandra",Venture Capital,"1. Financial Application Development
+2. UI/UX Design
+3. User-Centered Development
+4. Frontend Development with Vue.js and JavaScript
+5. Financial Technology Integration with Cassandra","['Financial Application Development', 'UI/UX Design', 'User-Centered Development', 'Frontend Development with Vue.js and JavaScript', 'Financial Technology Integration with Cassandra']"
+58,Karina Morales,AeroSpace Dynamics,"React, .NET, PostgreSQL",Aerospace,"1. Aerospace System Development
+2. Systems Engineering
+3. Aerospace Technology Integration
+4. Software Development (React, .NET)
+5. Data Management (PostgreSQL)","['Aerospace System Development', 'Systems Engineering', 'Aerospace Technology Integration', 'Software Development (React, .NET)', 'Data Management (PostgreSQL)']"
+59,Ignacio Paredes,Oceanic Foods,"Angular, Node.js, SQLite",Food Industry,"1. Sustainable Food Technology
+2. Web Development with Angular
+3. Backend Development with Node.js
+4. Database Management with SQLite
+5. Software Solutions for the Food Industry","['Sustainable Food Technology', 'Web Development with Angular', 'Backend Development with Node.js', 'Database Management with SQLite', 'Software Solutions for the Food Industry']"
+60,Victoria Sosa,SilverLine Apparel,"Vue.js, Django, MySQL",Fashion & Apparel,"1. E-commerce Development
+2. Fashion Technology
+3. Creative Design
+4. Web Development
+5. Digital Fashion Integration","['E-commerce Development', 'Fashion Technology', 'Creative Design', 'Web Development', 'Digital Fashion Integration']"
+61,Felipe Lara,ClearView Analytics,"React, Python, MongoDB",Data Analytics,"1. Data Analysis
+2. Data Visualization
+3. Statistical Analysis
+4. Business Intelligence
+5. Big Data Technologies","['Data Analysis', 'Data Visualization', 'Statistical Analysis', 'Business Intelligence', 'Big Data Technologies']"
+62,Manuela Diaz,PulseTech Systems,"Angular, Flask, PostgreSQL",Technology,"1. Fullstack Development
+2. Frontend Development (Angular)
+3. Backend Development (Flask)
+4. Database Management (PostgreSQL)
+5. Agile Methodologies","['Fullstack Development', 'Frontend Development (Angular)', 'Backend Development (Flask)', 'Database Management (PostgreSQL)', 'Agile Methodologies']"
+63,Sergio Fernandez,Horizon BioSciences,"Vue.js, Java, MySQL",Biotechnology,"1. Biotechnology Applications
+2. Software Development in Life Sciences
+3. Vue.js for Front-End Development
+4. Java for Software Solutions
+5. Data Management with MySQL","['Biotechnology Applications', 'Software Development in Life Sciences', 'Vue.js for Front-End Development', 'Java for Software Solutions', 'Data Management with MySQL']"
+64,Agustin Ramirez,GlobalReach Consulting,"React, Node.js, MariaDB",Consulting,"1. Business Strategy
+2. Web Development
+3. Client Relations
+4. React and Node.js Proficiency
+5. Digital Transformation Consulting","['Business Strategy', 'Web Development', 'Client Relations', 'React and Node.js Proficiency', 'Digital Transformation Consulting']"
+65,Carmen Castillo,PeakPerformance Sports,"Angular, Python, MongoDB",Sports & Fitness,"Certainly, here are five areas of specialization for Carmen Castillo:
+
+1. Sports Technology
+2. Application Development
+3. User Experience
+4. Data-Driven Insights
+5. Full-Stack Web Development (Angular, Python, MongoDB)","['Sports Technology', 'Application Development', 'User Experience', 'Data-Driven Insights', 'Full-Stack Web Development (Angular, Python, MongoDB)']"
+66,Hugo Soto,UrbanNest Realty,"Vue.js, Kotlin, PostgreSQL",Real Estate,"1. Tech-Driven Property Management
+2. Client Engagement Enhancement
+3. Real Estate Development
+4. Market Analysis
+5. Project Management in Real Estate Technology","['Tech-Driven Property Management', 'Client Engagement Enhancement', 'Real Estate Development', 'Market Analysis', 'Project Management in Real Estate Technology']"
+67,Lucia Flores,SolarFlare Power,"React, Ruby on Rails, SQLite",Renewable Energy,"1. Renewable Energy
+2. Sustainable Energy Practices
+3. Software Development
+4. Energy Management Applications
+5. Data Management in Energy Sector","['Renewable Energy', 'Sustainable Energy Practices', 'Software Development', 'Energy Management Applications', 'Data Management in Energy Sector']"
+68,Alberto Quintero,CloudBridge Networks,"Angular, Java, Cassandra",Telecommunications,"1. Cloud Computing
+2. Data Security
+3. Network Infrastructure
+4. Software Development (specifically Angular and Java)
+5. Database Management (Cassandra)","['Cloud Computing', 'Data Security', 'Network Infrastructure', 'Software Development (specifically Angular and Java)', 'Database Management (Cassandra)']"
+69,Ivan Rojas,Infinity Motors,"Vue.js, Django, PostgreSQL",Automotive,"1. Automotive Software Development
+2. Web Application Development
+3. Mechanical Engineering
+4. Database Management
+5. Project Management","['Automotive Software Development', 'Web Application Development', 'Mechanical Engineering', 'Database Management', 'Project Management']"
+70,Andrea Reyes,NextGen Entertainment,"React, Spring Boot, MySQL",Entertainment,"1. Immersive Entertainment Experiences
+2. Application Development
+3. Media Applications
+4. User Experience Design
+5. Creative Development","['Immersive Entertainment Experiences', 'Application Development', 'Media Applications', 'User Experience Design', 'Creative Development']"
+71,Felipe Correa,VentureVibe Capital,"Angular, Flask, MongoDB",Finance,"1. Financial Analysis
+2. Technology Integration in Finance
+3. Development of Analytical Tools
+4. Data-Driven Investment Strategies
+5. FinTech Solutions Development","['Financial Analysis', 'Technology Integration in Finance', 'Development of Analytical Tools', 'Data-Driven Investment Strategies', 'FinTech Solutions Development']"
+72,Santiago Martinez,TechNova Solutions,"Vue.js, JavaScript, PostgreSQL",Technology,"1. Frontend Development
+2. User Interface Design
+3. JavaScript Frameworks
+4. Vue.js Implementation
+5. Team Collaboration","['Frontend Development', 'User Interface Design', 'JavaScript Frameworks', 'Vue.js Implementation', 'Team Collaboration']"
+73,Santiago Martinez,TechNova Solutions,"Vue.js, JavaScript, PostgreSQL",Consulting,"1. Frontend Development
+2. User Interface Design
+3. JavaScript Frameworks
+4. Vue.js Implementation
+5. Team Collaboration","['Frontend Development', 'User Interface Design', 'JavaScript Frameworks', 'Vue.js Implementation', 'Team Collaboration']"
+74,Valentina Gutierrez,GreenLeaf Organics,"React, Node.js, MongoDB",Agriculture,"1. Environmental Science
+2. Sustainable Technology
+3. Web Development
+4. Environmental Impact Analysis
+5. Full-Stack Web Development (React, Node.js, MongoDB)","['Environmental Science', 'Sustainable Technology', 'Web Development', 'Environmental Impact Analysis', 'Full-Stack Web Development (React, Node.js, MongoDB)']"
+75,Valentina Gutierrez,GreenLeaf Organics,"React, Node.js, MongoDB",Food Industry,"1. Environmental Science
+2. Sustainable Technology
+3. Web Development
+4. Environmental Impact Analysis
+5. Full-Stack Web Development (React, Node.js, MongoDB)","['Environmental Science', 'Sustainable Technology', 'Web Development', 'Environmental Impact Analysis', 'Full-Stack Web Development (React, Node.js, MongoDB)']"
+76,Federico Alvarez,BlueWave Logistics,"Angular, Python, SQLite",Transportation & Logistics,"1. Logistics Management
+2. Data Analysis
+3. Supply Chain Management
+4. Application Development
+5. Logistics Optimization","['Logistics Management', 'Data Analysis', 'Supply Chain Management', 'Application Development', 'Logistics Optimization']"
+77,Federico Alvarez,BlueWave Logistics,"Angular, Python, SQLite",Automotive,"1. Logistics Management
+2. Data Analysis
+3. Supply Chain Management
+4. Application Development
+5. Logistics Optimization","['Logistics Management', 'Data Analysis', 'Supply Chain Management', 'Application Development', 'Logistics Optimization']"
+78,Isabel Ramirez,QuantumMed Innovations,"Vue.js, Java, PostgreSQL",Healthcare,"1. Biomedical Engineering
+2. Healthcare Application Development
+3. Software Engineering
+4. Medical Technology Innovation
+5. Database Management (PostgreSQL)","['Biomedical Engineering', 'Healthcare Application Development', 'Software Engineering', 'Medical Technology Innovation', 'Database Management (PostgreSQL)']"
+79,Mauricio Pena,EcoFusion Energy,"React, Django, MySQL",Renewable Energy,"1. Renewable Energy Engineering
+2. Software Development
+3. Web Development (React, Django)
+4. Data Visualization
+5. Energy Management Solutions","['Renewable Energy Engineering', 'Software Development', 'Web Development (React, Django)', 'Data Visualization', 'Energy Management Solutions']"
+80,Catalina Cruz,Stellar Financial,"Angular, Kotlin, Cassandra",Finance,"1. Financial Software Development
+2. Investment Decision Support
+3. Financial Data Analysis
+4. Financial Growth Strategies
+5. Advanced Financial Modeling","['Financial Software Development', 'Investment Decision Support', 'Financial Data Analysis', 'Financial Growth Strategies', 'Advanced Financial Modeling']"
+81,Catalina Cruz,Stellar Financial,"Angular, Kotlin, Cassandra",Venture Capital,"1. Financial Software Development
+2. Investment Decision Support
+3. Financial Data Analysis
+4. Financial Growth Strategies
+5. Advanced Financial Modeling","['Financial Software Development', 'Investment Decision Support', 'Financial Data Analysis', 'Financial Growth Strategies', 'Advanced Financial Modeling']"
+82,Francisco Moreno,AeroSpace Dynamics,"React, Spring Boot, PostgreSQL",Aerospace,"1. Aerospace Software Development
+2. Performance Optimization for Aerospace Applications
+3. Reliability Engineering
+4. Full-Stack Development (React, Spring Boot, PostgreSQL)
+5. Engineering Solutions for Aerospace Technology","['Aerospace Software Development', 'Performance Optimization for Aerospace Applications', 'Reliability Engineering', 'Full-Stack Development (React, Spring Boot, PostgreSQL)', 'Engineering Solutions for Aerospace Technology']"
+83,Laura Ortega,Oceanic Foods,"Vue.js, Node.js, SQLite",Food Industry,"1. Food Science
+2. Food Safety
+3. Software Development
+4. Application Development
+5. Product Quality Control","['Food Science', 'Food Safety', 'Software Development', 'Application Development', 'Product Quality Control']"
+84,Emiliano Reyes,SilverLine Apparel,"React, Python, MariaDB",Fashion & Apparel,"1. Fashion Technology Integration
+2. Application Development 
+3. User Experience Design
+4. Trend Analysis and Forecasting
+5. Database Management","['Fashion Technology Integration', 'Application Development', 'User Experience Design', 'Trend Analysis and Forecasting', 'Database Management']"
+85,Carolina Guzman,ClearView Analytics,"Angular, Java, MySQL",Data Analytics,"1. Data Analytics
+2. Machine Learning
+3. Data Visualization
+4. Analytical Solutions Development
+5. Data-Driven Decision Making","['Data Analytics', 'Machine Learning', 'Data Visualization', 'Analytical Solutions Development', 'Data-Driven Decision Making']"
+86,Lucas Fuentes,PulseTech Systems,"Vue.js, Flask, PostgreSQL",Technology,"1. Frontend Development (Vue.js)
+2. Backend Development (Flask)
+3. Database Management (PostgreSQL)
+4. Software Development Practices
+5. Team Collaboration and Problem Solving","['Frontend Development (Vue.js)', 'Backend Development (Flask)', 'Database Management (PostgreSQL)', 'Software Development Practices', 'Team Collaboration and Problem Solving']"
+87,Natalia Acosta,Horizon BioSciences,"React, Ruby on Rails, MySQL",Biotechnology,"1. Biotechnology Applications
+2. Web Development
+3. Data Analysis
+4. Software Development for Scientific Research
+5. Research Efficiency and Data Management in Biotech","['Biotechnology Applications', 'Web Development', 'Data Analysis', 'Software Development for Scientific Research', 'Research Efficiency and Data Management in Biotech']"
+88,Pablo Mendez,GlobalReach Consulting,"Angular, Python, MongoDB",Consulting,"1. Business Analytics
+2. Business Intelligence
+3. Data Analytics
+4. Market Research
+5. Technology Implementation (Angular, Python, MongoDB)","['Business Analytics', 'Business Intelligence', 'Data Analytics', 'Market Research', 'Technology Implementation (Angular, Python, MongoDB)']"
+89,Sofia Vargas,PeakPerformance Sports,"Vue.js, JavaScript, Cassandra",Sports & Fitness,"1. Sports Technology
+2. Software Development
+3. Web Development
+4. User Experience
+5. Sports Management","['Sports Technology', 'Software Development', 'Web Development', 'User Experience', 'Sports Management']"
+90,Gonzalo Romero,UrbanNest Realty,"React, Kotlin, PostgreSQL",Real Estate,"1. Real Estate Technology Integration
+2. Application Development for Property Management
+3. Web Development using React
+4. Real Estate Market Analysis
+5. Database Management with PostgreSQL","['Real Estate Technology Integration', 'Application Development for Property Management', 'Web Development using React', 'Real Estate Market Analysis', 'Database Management with PostgreSQL']"
+91,Silvia Leon,SolarFlare Power,"Angular, Ruby on Rails, MySQL",Renewable Energy,"1. Renewable Energy Technology
+2. Software Development for Sustainability
+3. Web Development (Angular, Ruby on Rails)
+4. Environmental Engineering
+5. Database Management (MySQL)","['Renewable Energy Technology', 'Software Development for Sustainability', 'Web Development (Angular, Ruby on Rails)', 'Environmental Engineering', 'Database Management (MySQL)']"
+92,Camilo Torres,CloudBridge Networks,"React, Node.js, PostgreSQL",Telecommunications,"1. Cloud Computing
+2. Software Development
+3. Network Security
+4. Application Development with React and Node.js
+5. Database Management with PostgreSQL","['Cloud Computing', 'Software Development', 'Network Security', 'Application Development with React and Node.js', 'Database Management with PostgreSQL']"
+93,Diego Valenzuela,Infinity Motors,"Vue.js, Python, MongoDB",Automotive,"1. Automotive Design and Functionality
+2. Vehicle Performance Enhancement
+3. Mechanical Engineering Applications
+4. Web Development with Vue.js
+5. Software Development using Python and MongoDB","['Automotive Design and Functionality', 'Vehicle Performance Enhancement', 'Mechanical Engineering Applications', 'Web Development with Vue.js', 'Software Development using Python and MongoDB']"
+94,Lucia Herrera,NextGen Entertainment,"Angular, Flask, PostgreSQL",Entertainment,"1. Engaging Media Applications Development
+2. Web Development using Angular and Flask
+3. Content Strategy for Media Platforms
+4. Database Management with PostgreSQL
+5. Media Studies and Analysis","['Engaging Media Applications Development', 'Web Development using Angular and Flask', 'Content Strategy for Media Platforms', 'Database Management with PostgreSQL', 'Media Studies and Analysis']"
+95,Rafael Fernandez,VentureVibe Capital,"React, Django, MySQL",Finance,"1. Financial Software Development
+2. Investment Management Solutions
+3. Financial Insights and Analysis
+4. Use of React, Django, and MySQL Technologies
+5. Integration of Finance and Technology","['Financial Software Development', 'Investment Management Solutions', 'Financial Insights and Analysis', 'Use of React, Django, and MySQL Technologies', 'Integration of Finance and Technology']"
