@@ -31,8 +31,8 @@ def generate_response(user_prompt: str) -> str:
         # Handle expert search
         expert_search_prompt = handle_expert_search(user_prompt)
         
-        # Generate the response using the GPT-4 model
-        expert_helper_chat = gpt_completion("gpt-4", expert_search_prompt)
+        # Generate the response using the gpt-4o model
+        expert_helper_chat = gpt_completion("gpt-4o", expert_search_prompt)
         
         return expert_helper_chat.choices[0].message.content
     
@@ -40,8 +40,8 @@ def generate_response(user_prompt: str) -> str:
         # If it's a general inquiry, we construct a generic prompt
         system_prompt = build_general_prompt(user_prompt)
 
-        # Generate the response using the GPT-4 model
-        standard_chat = gpt_completion("gpt-4", system_prompt)
+        # Generate the response using the gpt-4o model
+        standard_chat = gpt_completion("gpt-4o", system_prompt)
         
         return standard_chat.choices[0].message.content
 
@@ -50,7 +50,7 @@ def gpt_completion(model: str, prompt: str) -> dict:
     Sends a prompt to the GPT model and retrieves the completion.
 
     Args:
-        model (str): The model to be used, such as "gpt-4".
+        model (str): The model to be used, such as "gpt-4o".
         prompt (str): The prompt or system message to be sent to the GPT model.
 
     Returns:
@@ -91,10 +91,11 @@ def handle_expert_search(user_prompt: str) -> str:
         
         The user query in this case is: {user_prompt}
         
-        And you have the next list of colleagues who can help him:
+        And you have the next list of experts who can help him:
         {selected_professionals_string}.
 
-        Answer cordially with the name of the experts and a brief description of their expertise and technology knowledge. 
+        Answer in a fluid text (not a list) with the name of the experts and a brief description of their expertise and technology knowledge. 
+        If you want to highlight something in bold wrap it with just one asterisk on each side, never use double asterisks.
     """
     
     return system_prompt
@@ -111,7 +112,7 @@ def generate_user_embeddings(user_prompt: str) -> np.ndarray:
     return np.array(embedding_user.data[0].embedding)
 
 # Function to find the nearest neighbors using FAISS
-def find_similar_experts(embedding_user_array: np.ndarray, k: int = 4):
+def find_similar_experts(embedding_user_array: np.ndarray, k: int = 5):
     """
     Finds the top k closest experts based on the user's embeddings.
     """
@@ -155,7 +156,7 @@ def classify_user_intent_with_gpt(user_prompt: str) -> str:
 
     # Call to GPT to classify the intent
     classification_response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",
@@ -184,7 +185,7 @@ def build_general_prompt(user_prompt: str) -> str:
     return system_prompt
 
 
-def find_nearest_neighbors_faiss(normalized_embeddings: np.ndarray, unit_vector: np.ndarray, k: int = 4) -> tuple:
+def find_nearest_neighbors_faiss(normalized_embeddings: np.ndarray, unit_vector: np.ndarray, k: int = 5) -> tuple:
     """
     Creates a FAISS index using L2 distance (which acts like cosine similarity for normalized vectors), 
     adds normalized embeddings to the index, and finds the k nearest neighbors to a query vector.
@@ -231,7 +232,7 @@ def create_profile_prompt(input_dataframe: pd.DataFrame) -> str:
     Returns:
         str: A formatted string that describes the person's profile based on the DataFrame content.
     """
-    profile_prompt_string = f""" {input_dataframe["Name"]} works in 
+    profile_prompt_string = f""" {input_dataframe["Name"]} works for the partner 
     {input_dataframe["Partner"]}, a company of {input_dataframe["Industry"]}
     which works with these technologies {input_dataframe["Technologies"]}.
     He has expertise in {input_dataframe["Processed_CV"]}
